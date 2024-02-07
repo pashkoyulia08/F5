@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body {
+    background: -o-linear-gradient(125deg, #FC3F5F 100.32%);
+    font-family: "Poppins", sans-serif;
+    padding: 48px;
+}
+.container {
+    border-radius: 32px;
+    background: -o-linear-gradient(180deg, rgba(43, 34  21 0.8) -1.22%, #22282e 101.33%);
+    box-shadow: 8px 0px 250px 0px rgba(0, 0, 0, 0.3);
+    max-width: 1410px;
+    width: 100%;
+    margin-inline: auto;
+}
+.header{
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+.header-logo,  
+.header-btn {
+    min-width: 175px;
+}
+.header-logo{
+}
+.header-logo__link {
+}
+.header-nav {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+.header-nav__link {
+    color: #a0a3a7;
+    font-size: 14px;
+    font-weight: 300
+}
+.header-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-btn__link {
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 16px 24px;
+    border-radius: 999px;
+    background: linear-gradient(93deg, #e1e1e1 8/37%, #fff 99.95%);
+    box-shadow: 8px 4px 50px 0px rgba(37,37 ,37, 0.08),
+    1px 1px 1px 0px rgba(135, 135, 135, 0.32) inset;
+    color: #24282e;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nain {
+    max-width: 598px;
+    margin-inline: auto;
+    text-align: center;
+    padding-top: 179px;
+    padding-bottom: 161px;
+}
+.title {
+    color: #f2f4f7;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.desc {
+    color: #f2f4f7;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+.btn-learn {
+    border-radius: 999px;
+    text-align: center;
+    border: 2px solid #fc40f4;
+    color: #fc40f4;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 32px;
+    min-width: 239px;
+
+}
+.loader{
+    margin-top: 64px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+}
